@@ -1,0 +1,117 @@
+/* header */
+:root {
+  --main-text-color: #212121;
+  --additional-text-color: #757575;
+  --accent-color: #2196f3;
+  --accent-color-two: #ffffff;
+  --main-font: "Roboto";
+  --additional-font: "Raleway";
+  --font-style: "Normal";
+  --accent-backgroung: #2f303a;
+  --accent-button-backgroung: #f5f4fa;
+}
+
+.header {
+  background-color: var(--accent-color-two);
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--main-text-color);
+  font: var(--main-font);
+  font-style: var(--font-style);
+  text-decoration: none;
+  width: 1600px;
+}
+.list {
+  list-style: none;
+}
+
+.site-nav .link,
+.web,
+.studio,
+.web-studio {
+  list-style: none;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.mail,
+.phone {
+  color: var(--additional-text-color);
+}
+
+/* hero */
+
+.section-one {
+  background-color: var(--accent-backgroung);
+}
+
+.main-section {
+  color: var(--accent-color-two);
+  font-weight: 900;
+}
+
+.button-background {
+  color: var(--accent-color-two);
+  background-color: var(--accent-color);
+}
+
+.button-background-port {
+  color: var(--main-text-color);
+  background-color: var(--accent-button-backgroung);
+}
+
+.button-background-port:hover,
+.button-background-port:focus {
+  color: var(--accent-color-two);
+  background-color: var(--accent-color);
+}
+
+.paragraph {
+  color: var(--additional-text-color);
+}
+.employee-name {
+  color: var(--main-text-color);
+}
+
+.section-four {
+  background-color: #f5f4fa;
+}
+
+.address-city {
+  color: var(--accent-color-two);
+}
+.footer {
+  background-color: var(--accent-backgroung);
+}
+
+a:link {
+  text-decoration: none;
+  font-style: var(--font-style);
+}
+a:link:hover,
+a:link:focus {
+  color: var(--accent-color);
+}
+.contact-data {
+  color: rgba(255, 255, 255, 0.6);
+  font: var(--main-font);
+  font-style: var(--font-style);
+}
+
+.studio-bl {
+  color: var(--accent-color-two);
+}
