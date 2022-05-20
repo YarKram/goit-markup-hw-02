@@ -4,12 +4,12 @@
   --additional-text-color: #757575;
   --accent-color: #2196f3;
   --accent-color-two: #ffffff;
-  --main-font: "Roboto";
+  --main-font: "Roboto", sans-serif;
   --main-font-weight: 900;
   --additional-font-weight: 400;
   --font-weight-employee-name: 500;
   --font-weight-advantages: 700;
-  --additional-font: "Raleway";
+  --additional-font: "Raleway", sans-serif;
   --font-style: "Normal";
   --accent-backgroung: #2f303a;
   --accent-button-backgroung: #f5f4fa;
