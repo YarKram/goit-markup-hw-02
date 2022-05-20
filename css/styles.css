@@ -79,6 +79,9 @@ body {
 .phone {
   color: var(--additional-text-color);
   font-weight: var(--font-weight-employee-name);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* hero */
@@ -100,7 +103,7 @@ body {
 .button-background {
   color: var(--accent-color-two);
   background-color: var(--accent-color);
-  font: var(--main-font);
+  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -109,7 +112,7 @@ body {
 .button-background-port {
   color: var(--main-text-color);
   background-color: var(--accent-button-backgroung);
-  font: var(--main-font);
+  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
@@ -119,7 +122,7 @@ body {
 .button-background-port:focus {
   color: var(--accent-color-two);
   background-color: var(--accent-color);
-  font: var(--main-font);
+  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
@@ -171,7 +174,7 @@ button {
   letter-spacing: 0.06em;
 }
 
-.list .paragraph {
+.section-portfolio .paragraph {
   font-weight: var(--additional-font-weight);
   font-size: 16px;
   line-height: 1.88;
