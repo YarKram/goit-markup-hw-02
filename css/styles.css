@@ -5,10 +5,15 @@
   --accent-color: #2196f3;
   --accent-color-two: #ffffff;
   --main-font: "Roboto";
+  --main-font-weight: 900;
+  --additional-font-weight: 400;
+  --font-weight-employee-name: 500;
+  --font-weight-advantages: 700;
   --additional-font: "Raleway";
   --font-style: "Normal";
   --accent-backgroung: #2f303a;
   --accent-button-backgroung: #f5f4fa;
+  --studio-style-color: rgba(255, 255, 255, 0.6);
 }
 
 .header {
@@ -16,12 +21,10 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: var(--accent-color-two);
   color: var(--main-text-color);
-  font: var(--main-font);
-  font-style: var(--font-style);
+  font-family: var(--main-font);
   text-decoration: none;
-  width: 1600px;
 }
 .list {
   list-style: none;
@@ -46,6 +49,12 @@ body {
 
 .web {
   color: var(--accent-color);
+  font-family: var(--additional-font);
+}
+
+.studio-bl {
+  color: var(--accent-color-two);
+  font-family: var(--additional-font);
 }
 
 .mail,
@@ -61,41 +70,56 @@ body {
 
 .main-section {
   color: var(--accent-color-two);
-  font-weight: 900;
+  font-weight: var(--main-font-weight);
 }
 
 .button-background {
   color: var(--accent-color-two);
   background-color: var(--accent-color);
+  font: var(--main-font);
 }
 
 .button-background-port {
   color: var(--main-text-color);
   background-color: var(--accent-button-backgroung);
+  font: var(--main-font);
 }
 
 .button-background-port:hover,
 .button-background-port:focus {
   color: var(--accent-color-two);
   background-color: var(--accent-color);
+  font: var(--main-font);
+}
+
+.advantages-title {
+  font-weight: var(--font-weight-advantages);
 }
 
 .paragraph {
   color: var(--additional-text-color);
+  font-weight: var(--additional-font-weight);
 }
 .employee-name {
   color: var(--main-text-color);
+  font-weight: var(--font-weight-employee-name);
 }
 
 .section-four {
-  background-color: #f5f4fa;
+  background-color: var(--accent-button-backgroung);
 }
 
 .address-city {
   color: var(--accent-color-two);
 }
+
 .footer {
   background-color: var(--accent-backgroung);
+  font-style: var(--font-style);
+}
+
+.address {
+  font-style: var(--font-style);
 }
 
 a:link {
@@ -107,11 +131,7 @@ a:link:focus {
   color: var(--accent-color);
 }
 .contact-data {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--studio-style-color);
   font: var(--main-font);
   font-style: var(--font-style);
-}
-
-.studio-bl {
-  color: var(--accent-color-two);
 }
