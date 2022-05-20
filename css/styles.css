@@ -37,6 +37,7 @@ body {
   list-style: none;
   color: var(--main-text-color);
   text-decoration: none;
+  font-weight: var(--font-weight-employee-name);
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -60,6 +61,7 @@ body {
 .mail,
 .phone {
   color: var(--additional-text-color);
+  font-weight: var(--font-weight-employee-name);
 }
 
 /* hero */
