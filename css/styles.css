@@ -16,45 +16,6 @@
   --studio-style-color: rgba(255, 255, 255, 0.6);
 }
 
-/* 
-  header: 
-  font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-section1
-font-size: 44px;
-line-height: 60px;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-button
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-paragraph
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-
-what we do, our team
-font-size: 36px;
-line-height: 42px;
-letter-spacing: 0.03em;
-
-our team
-employer, paragraph
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.03em;
-
-footer
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-
 /* header */
 .header {
   background-color: var(--accent-color-two);
@@ -93,7 +54,7 @@ body {
 .web,
 .studio-bl {
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -110,7 +71,7 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -131,7 +92,7 @@ body {
   color: var(--accent-color-two);
   font-weight: var(--main-font-weight);
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -141,7 +102,7 @@ body {
   background-color: var(--accent-color);
   font: var(--main-font);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.06em;
 }
 
@@ -150,7 +111,7 @@ body {
   background-color: var(--accent-button-backgroung);
   font: var(--main-font);
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   letter-spacing: 0.03em;
 }
 
@@ -160,14 +121,18 @@ body {
   background-color: var(--accent-color);
   font: var(--main-font);
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   letter-spacing: 0.03em;
+}
+
+button {
+  cursor: pointer;
 }
 
 .advantages-title {
   font-weight: var(--font-weight-advantages);
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -176,40 +141,40 @@ body {
   color: var(--additional-text-color);
   font-weight: var(--additional-font-weight);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .section-title {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .employee-name {
   color: var(--main-text-color);
   font-weight: var(--font-weight-employee-name);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .paragraph-employee {
   color: var(--additional-text-color);
   font-weight: var(--additional-font-weight);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .paragraph-name {
   color: var(--main-text-color);
   font-weight: var(--font-weight-advantages);
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .list .paragraph {
   font-weight: var(--additional-font-weight);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 .section-four {
@@ -219,7 +184,7 @@ body {
 .address-city {
   color: var(--accent-color-two);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -231,7 +196,7 @@ body {
 .address {
   font-style: var(--font-style);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
