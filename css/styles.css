@@ -16,6 +16,46 @@
   --studio-style-color: rgba(255, 255, 255, 0.6);
 }
 
+/* 
+  header: 
+  font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+section1
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+button
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+paragraph
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+what we do, our team
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+
+our team
+employer, paragraph
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+
+footer
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+/* header */
 .header {
   background-color: var(--accent-color-two);
 }
@@ -39,14 +79,6 @@ body {
   text-decoration: none;
   font-weight: var(--font-weight-employee-name);
 }
-.site-nav .link:hover,
-.site-nav .link:focus,
-.mail:hover,
-.mail:focus,
-.phone:hover,
-.phone:focus {
-  color: var(--accent-color);
-}
 
 .web {
   color: var(--accent-color);
@@ -58,6 +90,30 @@ body {
   font-family: var(--additional-font);
 }
 
+.web,
+.studio-bl {
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link,
+.site-nav .link:hover,
+.site-nav .link:focus {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
 .mail,
 .phone {
   color: var(--additional-text-color);
@@ -65,6 +121,7 @@ body {
 }
 
 /* hero */
+/* section one */
 
 .section-one {
   background-color: var(--accent-backgroung);
@@ -73,18 +130,28 @@ body {
 .main-section {
   color: var(--accent-color-two);
   font-weight: var(--main-font-weight);
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button-background {
   color: var(--accent-color-two);
   background-color: var(--accent-color);
   font: var(--main-font);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 
 .button-background-port {
   color: var(--main-text-color);
   background-color: var(--accent-button-backgroung);
   font: var(--main-font);
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
 
 .button-background-port:hover,
@@ -92,27 +159,68 @@ body {
   color: var(--accent-color-two);
   background-color: var(--accent-color);
   font: var(--main-font);
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
 
 .advantages-title {
   font-weight: var(--font-weight-advantages);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .paragraph {
   color: var(--additional-text-color);
   font-weight: var(--additional-font-weight);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
 }
 .employee-name {
   color: var(--main-text-color);
   font-weight: var(--font-weight-employee-name);
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.paragraph-employee {
+  color: var(--additional-text-color);
+  font-weight: var(--additional-font-weight);
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.paragraph-name {
+  color: var(--main-text-color);
+  font-weight: var(--font-weight-advantages);
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 
+.list .paragraph {
+  font-weight: var(--additional-font-weight);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
 .section-four {
   background-color: var(--accent-button-backgroung);
 }
 
 .address-city {
   color: var(--accent-color-two);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .footer {
@@ -122,6 +230,9 @@ body {
 
 .address {
   font-style: var(--font-style);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 a:link {
