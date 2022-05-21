@@ -104,15 +104,22 @@ body {
   color: var(--accent-color-two);
   background-color: var(--accent-color);
   font-family: var(--main-font);
+  font-weight: var(--font-weight-advantages);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+}
+
+.button-background:hover {
+  color: var(--accent-color);
+  background-color: var(--accent-color-two);
 }
 
 .button-background-port {
   color: var(--main-text-color);
   background-color: var(--accent-button-backgroung);
   font-family: var(--main-font);
+  font-weight: var(--font-weight-employee-name);
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
