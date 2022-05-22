@@ -14,6 +14,7 @@
   --accent-backgroung: #2f303a;
   --accent-button-backgroung: #f5f4fa;
   --studio-style-color: rgba(255, 255, 255, 0.6);
+  --button-background-color-hover: #188ce8;
 }
 
 /* header */
@@ -111,8 +112,8 @@ body {
 }
 
 .button-background:hover {
-  color: var(--accent-color);
-  background-color: var(--accent-color-two);
+  color: var(--accent-color-two);
+  background-color: var(--button-background-color-hover);
 }
 
 .button-background-port {
